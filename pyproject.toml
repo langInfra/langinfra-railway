@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "railway-langinfra-template"
+version = "0.1.0"
+description = "This example starts up Langinfra"
+authors = ["Md Sulaiman <dev.sulaiman@icloud.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+langinfra = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
